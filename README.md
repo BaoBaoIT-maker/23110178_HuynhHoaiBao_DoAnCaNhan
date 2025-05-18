@@ -117,10 +117,6 @@ Thuật toán IDS:
 ![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/IDS.gif?raw=true)
 
 
-**So sánh hiệu suất (dự kiến):**
-
-* **(Chèn hình ảnh/bảng so sánh hiệu suất của BFS, DFS, UCS, IDS về thời gian chạy, số bước, số nút đã duyệt cho một vài trạng thái ban đầu khác nhau tại đây)**
-
 **Nhận xét về hiệu suất:**
 
 * **BFS và IDS:** Thường tìm thấy lời giải tối ưu (về số bước). BFS có thể tốn nhiều bộ nhớ do phải lưu trữ tất cả các nút ở biên (fringe). IDS hiệu quả hơn về bộ nhớ so với BFS nhưng phải duyệt lại các nút ở các độ sâu trước đó, dẫn đến thời gian chạy có thể lớn hơn một chút, mặc dù bậc độ phức tạp thời gian vẫn tương đương BFS.
@@ -164,10 +160,6 @@ Thuật toán IDA*:
 
 ![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/IDAstar.gif?raw=true)
 
-
-**So sánh hiệu suất (dự kiến):**
-
-* **(Chèn hình ảnh/bảng so sánh hiệu suất của Greedy, A\*, IDA\* về thời gian, số bước, số nút đã duyệt tại đây)**
 
 **Nhận xét về hiệu suất:**
 
@@ -227,11 +219,6 @@ Thuật toán Simulated Annealing - SA:
 Thuật toán Beam Search:
 
 ![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/Beam.gif?raw=true)
-
-
-**So sánh hiệu suất (dự kiến):**
-
-* **(Chèn hình ảnh/bảng so sánh hiệu suất của các thuật toán tìm kiếm cục bộ, có thể so sánh chất lượng giải pháp (ví dụ: giá trị heuristic của trạng thái cuối) và thời gian tìm kiếm tại đây)**
 
 **Nhận xét về hiệu suất:**
 

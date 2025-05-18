@@ -100,14 +100,22 @@ Các thuật toán này được gọi là "mù" (blind) vì chúng không sử 
 
 **Hình ảnh GIF minh họa:**
 
-* **(Chèn GIF minh họa BFS tại đây)**
-    *Mô tả: BFS khám phá các trạng thái theo từng lớp, đảm bảo tìm ra lời giải có số bước ít nhất.*
-* **(Chèn GIF minh họa DFS tại đây)**
-    *Mô tả: DFS đi sâu vào một nhánh cho đến khi gặp ngõ cụt hoặc tìm thấy đích, có thể không tối ưu.*
-* **(Chèn GIF minh họa UCS tại đây)**
-    *Mô tả: UCS ưu tiên các đường đi có tổng chi phí thấp nhất, tương tự BFS khi chi phí mỗi bước là 1.*
-* **(Chèn GIF minh họa IDS tại đây)**
-    *Mô tả: IDS lặp lại DFS với độ sâu tăng dần, kết hợp ưu điểm của BFS và DFS.*
+Thuật toán BFS:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/BFS.gif?raw=true)
+
+Thuật toán DFS:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/DFS.gif?raw=true)
+
+Thuật toán UCS:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/UCS.gif?raw=true)
+
+Thuật toán IDS:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/IDS.gif?raw=true)
+
 
 **So sánh hiệu suất (dự kiến):**
 
@@ -144,12 +152,18 @@ Trong project này, hàm heuristic chính được sử dụng là **Khoảng c�
 
 **Hình ảnh GIF minh họa:**
 
-* **(Chèn GIF minh họa Greedy Best-First Search tại đây)**
-    *Mô tả: Greedy BFS nhanh chóng hướng về đích dựa trên heuristic, nhưng có thể không phải là đường đi ngắn nhất.*
-* **(Chèn GIF minh họa A\* Search tại đây)**
-    *Mô tả: A\* cân bằng giữa chi phí đã đi và chi phí ước tính còn lại, thường tìm ra lời giải tối ưu hiệu quả.*
-* **(Chèn GIF minh họa IDA\* Search tại đây)**
-    *Mô tả: IDA\* sử dụng ít bộ nhớ hơn A\* bằng cách lặp lại tìm kiếm sâu dần với ngưỡng f-cost tăng dần.*
+Thuật toán Greedy:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/Greedy.gif?raw=true)
+
+Thuật toán A*:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/Astar.gif?raw=true)
+
+Thuật toán IDA*:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/IDAstar.gif?raw=true)
+
 
 **So sánh hiệu suất (dự kiến):**
 
@@ -190,12 +204,30 @@ Các thuật toán tìm kiếm cục bộ hoạt động bằng cách bắt đ�
 
 **Hình ảnh GIF minh họa:**
 
-* **(Chèn GIF minh họa Hill Climbing (một biến thể) tại đây)**
-    *Mô tả: Hill Climbing cố gắng "leo lên" đến trạng thái tốt hơn, nhưng có thể bị kẹt.*
-* **(Chèn GIF minh họa Simulated Annealing tại đây)**
-    *Mô tả: SA cho phép các bước đi "xấu" để có thể thoát khỏi cực tiểu địa phương và tìm kiếm giải pháp tốt hơn.*
-* **(Chèn GIF minh họa Genetic Algorithm tại đây)**
-    *Mô tả: GA tiến hóa một quần thể các giải pháp qua các thế hệ để tìm ra giải pháp tốt.*
+Thuật toán Simple Hill Climbing:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/simple_hill.gif?raw=true)
+
+Thuật toán Steepest-Ascent Hill Climbing:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/stepest_hill.gif?raw=true)
+
+Thuật toán Stochastic Hill Climbing
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/stochastic_hill.gif?raw=true)
+
+Thuật toán Genetic Algorithm - GA:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/generic.gif?raw=true)
+
+Thuật toán Simulated Annealing - SA:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/simulated_anealing.gif?raw=true)
+
+Thuật toán Beam Search:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/Beam.gif?raw=true)
+
 
 **So sánh hiệu suất (dự kiến):**
 
@@ -228,12 +260,19 @@ Nhóm này bao gồm các thuật toán hoặc mô phỏng các khái niệm tì
 
 **Hình ảnh GIF minh họa:**
 
-* **(Chèn GIF minh họa mô phỏng AND-OR Search tại đây)**
-    *Mô tả: Người dùng giải quyết từng ô một, tượng trưng cho việc hoàn thành các tiểu mục tiêu trong một kế hoạch AND-OR.*
-* **(Chèn GIF minh họa mô phỏng Sensorless Problem tại đây)**
-    *Mô tả: Một hành động được áp dụng đồng thời lên nhiều bảng, thể hiện việc tìm kiếm một kế hoạch chung cho nhiều khả năng.*
-* **(Chèn GIF minh họa mô phỏng Partially Observable Problem tại đây)**
-    *Mô tả: Các bảng có một phần cố định, phần còn lại thay đổi khi hành động được áp dụng, thể hiện việc xử lý thông tin không chắc chắn.*
+AND-OR Search (Tìm kiếm AND-OR):
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/AndOr.gif?raw=true)
+
+
+Sensorless (Conformant) Problem (Bài toán không cảm biến / Tuân thủ):
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/sensorless.gif?raw=true)
+
+Partially Observable Problem (Bài toán quan sát được một phần):
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/partail.gif?raw=true)
+
 
 **Nhận xét:**
 
@@ -262,12 +301,17 @@ Nhóm này giải quyết các bài toán tìm kiếm đường đi mà ngoài m
 
 **Hình ảnh GIF minh họa:**
 
-* **(Chèn GIF minh họa Backtracking với ràng buộc 2-5 tại đây)**
-    *Mô tả: Backtracking thử các nước đi, nếu vi phạm ràng buộc 2-5 thì quay lui để thử nhánh khác.*
-* **(Chèn GIF minh họa Forward Checking với ràng buộc 2-5 tại đây)**
-    *Mô tả: Forward Checking kiểm tra tính hợp lệ của ràng buộc sau mỗi bước di chuyển và có thể cắt tỉa sớm hơn Backtracking.*
-* **(Chèn GIF minh họa Min-Conflicts sửa chữa đường đi tại đây)**
-    *Mô tả: Min-Conflicts bắt đầu từ một đường đi có thể vi phạm ràng buộc, sau đó lặp đi lặp lại việc sửa các trạng thái để giảm số vi phạm ràng buộc 2-5.*
+Backtracking Search:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/Backtracking.gif?raw=true)
+
+Forward Checking
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/forward_checking.gif?raw=true)
+
+Min-Conflicts 
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/minconflict.gif?raw=true)
 
 **Nhận xét:**
 
@@ -300,8 +344,14 @@ Học tăng cường là một lĩnh vực của học máy, nơi một tác nh�
 
 **Hình ảnh GIF minh họa (nếu có thể, ví dụ: hiển thị Q-values thay đổi hoặc agent tự chơi sau khi huấn luyện):**
 
-* **(Chèn GIF minh họa quá trình huấn luyện Q-Learning/TD Learning hoặc agent tự chơi sau khi huấn luyện tại đây)**
-    *Mô tả: Minh họa việc agent thử các nước đi và dần học được cách giải hoặc bảng Q-values/V-values được cập nhật.*
+Q-Learning:
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/q_learning.gif?raw=true)
+
+TD Learning (Value Prediction - Temporal Difference Learning for V(s)):
+
+![Demo And-Or](https://github.com/BaoBaoIT-maker/23110178_HuynhHoaiBao_DoAnCaNhan/blob/main/TD_learning.gif?raw=true)
+
 
 **Nhận xét:**
 
@@ -311,6 +361,15 @@ Học tăng cường là một lĩnh vực của học máy, nơi một tác nh�
 * **Hội tụ và Tối ưu:** Không có gì đảm bảo rằng các thuật toán này sẽ hội tụ đến chính sách tối ưu toàn cục, đặc biệt với số lần huấn luyện giới hạn hoặc nếu các tham số (alpha, gamma, epsilon) không được chọn phù hợp. Tuy nhiên, chúng thường có thể học được các chính sách "đủ tốt".
 * **Sau huấn luyện:** Một khi đã được huấn luyện, agent có thể sử dụng bảng Q (chọn hành động `a` tại trạng thái `s` sao cho `Q(s, a)` là lớn nhất) hoặc bảng V (chọn hành động dẫn đến trạng thái `s'` có `V(s')` lớn nhất) để giải quyết bài toán một cách nhanh chóng mà không cần tìm kiếm lại từ đầu.
 * Trong project này, sau khi huấn luyện, agent sẽ cố gắng giải quyết puzzle dựa trên chính sách đã học từ bảng Q hoặc V.
+
+### 3.8.So sánh giữa các thuật toán
+
+![comparison_time_to_solve_extended](https://github.com/user-attachments/assets/23efe2f2-414a-4872-8474-df0c7e6902dc)
+
+![comparison_nodes_expanded_extended](https://github.com/user-attachments/assets/60496326-7821-4bbc-91a2-4c179990bb1e)
+
+![comparison_path_length_extended](https://github.com/user-attachments/assets/8e06048d-aee2-4653-8a3a-eea2aa0b55c8)
+
 
 ## 4. Kết luận
 
